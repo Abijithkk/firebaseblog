@@ -4,11 +4,7 @@ import {
   doc,
   getDocs,
   limit,
-  onSnapshot,
-  query,
-  orderBy,
-  where,
-  startAfter,
+  onSnapshot,query, orderBy, where, startAfter,
 } from "firebase/firestore";
 import React, { useState, useEffect } from "react";
 import BlogSection from "../components/BlogSection";
